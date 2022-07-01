@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 40px;
+    background-color: rgb(232, 236, 241);  
+}
+
+div {
+    margin: 20px;
+}
+
+#container {
+    background-image: url(pexels-ruvim-3560044.jpg);
+    background-size: cover;
+    border-radius: 10px; 
+    color: white;
+}
+
+#time-container, #container {
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+#city-button {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 10px -5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#time-output {
+    margin: 40px;
+}
+
+.radius {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50% 50%;
+    background-color: rgba(240, 233, 233, 0.822)
+}
